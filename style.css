@@ -18,7 +18,8 @@
 }
 
 @media (max-width: 768px) {
-  .header { text-align: center;
+  .header { 
+    text-align: center;
 }
 }
 .main-element {
@@ -34,14 +35,17 @@
 .task-row-wrapper {
   display: flex;
 }
-.incomplete-tasks, .completed-tasks{
+.incomplete-tasks,
+.completed-tasks{
   margin: 0;
   padding: 0px;
 }
-.tasks-item, .title {
+.tasks-item,
+.title {
   list-style: none;
 }
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 .button {
